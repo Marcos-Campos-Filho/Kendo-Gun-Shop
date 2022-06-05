@@ -1,2 +1,3 @@
 # Kendo-Gun-Shop
-Website simples da Loja do Kendo
+Website simple da Loja do Kendo
+///////////EM ANDAMENTO////////
