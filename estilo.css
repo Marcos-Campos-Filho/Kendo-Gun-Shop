@@ -1,11 +1,17 @@
+html { background-color: rgba(50, 50, 50, 0.12) ;}
+
 body {
     max-width:800px;
     max-height: 100rem;
     margin:0 auto;
     padding: 1rem;
-    border-left: 1px solid gray;
-    border-right: 1px solid gray;
+    border-left: 1.2px solid gray;
+    border-right: 1.2px solid gray;
+    box-shadow: 1.2px 1.2px 1.2px rgba(0, 0, 0, 0.37);
+    background-color: white;
 }
+
+figure { margin-left: 0.1rem;}
 
 table,th, td, caption {
     border:1px solid gray;
@@ -14,4 +20,10 @@ table,th, td, caption {
     padding: 0.5rem;
 }
 
-td { text-align:center;}
+ li{list-style-type:circle;}
+
+ ul {padding-left: 1rem;}
+     
+ td { text-align:center;}
+
+ fieldset {margin-right: 25rem;}

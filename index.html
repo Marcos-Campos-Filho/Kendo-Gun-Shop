@@ -12,39 +12,44 @@
     <link rel="stylesheet" href="estilo.css"/>
   </head>
   <body>
-    <h1>Bem Vindo a KENDO GUN SHOP</h1>
+    <h1>Bem Vindo ao KENDO GUN SHOP</h1>
 
     <header>
+      
       <nav>
         <ul>
           <li><a href="#sobre">Sobre Kendo Gun Shop</a></li>
-          <li>Produtos</li>
-          <li><a href="#horarios">Horarios</a></li>
-          <li>Contato</li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="#horarios">Horários</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
-    </header>
 
-    <figure>
-      <!--
-        Por algum motivo qualquer imagem só aparece no browser(sem usar o LIVE SERVER), se colocar
-        um . antes do path.  Ex:
-                                ./imagens/loja-frente-400x225.png 
-      -->
-      <img src="./imagens/loja-frente-400x225.png" title="Kendo Gun Shop" alt="Kendo Gun Shop Entrada"/>
-      <figcaption>Kendo Gun Shop</figcaption>
-    </figure>
+      <figure>
+        <!--
+          Por algum motivo qualquer imagem só aparece no browser(sem usar o LIVE SERVER), se colocar
+          um . antes do path.  Ex:
+                                  ./imagens/loja-frente-400x225.png 
+        -->
+        <img id="frente" src="./imagens/loja-frente-400x225.png" 
+        title="Kendo Gun Shop" 
+        alt="Kendo Gun Shop Entrada"
+        width="400" height="225">
+        <figcaption><em>Kendo Gun Shop</em></figcaption>
+      </figure>
+
+    </header>
 
     <hr>
 
     <article id="sobre">
       <h2>Sobre Kendo Gun Shop</h2>
       <p>
-        Localizada no centro da cidade <em>Raccoon City</em>, próxmo a Estação
+        &nbsp;&nbsp;Localizada no centro da cidade <em>Raccoon City</em>, próxmo a Estação
         Policial. Fundada por Robert Kendo, um grande admirador de armas. Além
         disso Kendo fonceria suplementos de armas ao
         <abbr><ins title="Special Tactics and Rescue Service">STRS</ins></abbr>
-        , usando armamento modifico pelo seu irmão Joseph Kendo.
+        , usando armamento modificado pelo o seu irmão, Joseph Kendo.
       </p>
     </article>
 
@@ -56,9 +61,10 @@
           Você Sabia que <em>Umbrella Corporation</em> possui uma sede em
           <em>Raccoon City</em>?
         </summary>
-          <p>&nbsp;Em 1970 Marcus Ashford, um dos fundadores da Umbrella Corporation,
-          estabeleceu uma filial em Raccon City devida a grande prosperidade da
-          cidade e ciente da grande potência que um dia iria ser.</p>
+          <p>&nbsp;Em <time datetime="1970">1970</time> Marcus Ashford, um 
+          dos fundadores da Umbrella Corporation, estabeleceu uma filial em
+           Raccon City devida a grande prosperidade da cidade e ciente da
+          grande potência que um dia iria ser.</p>
           
       </details>
     </aside>
@@ -67,7 +73,7 @@
 
     <aside id="horarios">      
         <table>
-          <caption>Horários ABERTOS</caption>
+          <caption style="font-size: 1.2rem"><b>Horários ABERTOS</b></caption>
 
           <thead>
             <tr>
@@ -80,15 +86,15 @@
           <tbody>
             <tr>
             <td>
-              <time datetime="08:00">08:00</time> as
+              <time datetime="08:00">08:00</time> às
               <time datetime="12:00">12:00</time>
             </td>
             <td>
-              <time datetime="13:00">13:00</time> as
+              <time datetime="13:00">13:00</time> às
               <time datetime="16:00">16:00</time>
             </td>
             <td>
-              <time datetime="18:00">18:00</time> as
+              <time datetime="18:00">18:00</time> às
               <time datetime="20:30">20:30*</time>
             </td>
             </tr>
@@ -98,8 +104,8 @@
               <tr>
             <td colspan="3">
               <b>
-               * Devido os incidentes recentes aos aredores da cidade, a loja
-                não será aberta pelo turno da noite por um tempo inderminado.
+               * Devido aos incidentes recentes aos aredores da cidade, a loja
+                não será aberta pelo turno da noite por tempo indeterminado.
               </b>
               </td>
             </tr>
@@ -110,7 +116,7 @@
     <aside>
     <h3>Localização</h3>
     <address>
-        Centro de Raccon City, na esquina proxima a Rua Flores.
+        Centro de Raccon City, na esquina próxima a Rua Flores.
     </address>
     </aside>
 
@@ -118,7 +124,7 @@
 
     <footer>
         Copyright &copy;Kendo Gun Shop, 2022 <br>
-        <a href="/">&uarr;TOPO&uarr;</a>
+        <a href="#">&uarr;TOPO&uarr;</a>
     </footer>
 
   </body>
