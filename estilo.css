@@ -26,4 +26,30 @@ table,th, td, caption {
      
  td { text-align:center;}
 
- fieldset {margin-right: 25rem;}
+                     /*FORMULARIO START*/
+
+ legend {background-color: rgba(128, 128, 128, 0.336);}
+
+input:invalid + span::before {
+    content: 'X';
+    font-weight: bolder;
+    font-family:sans-serif;
+    color: rgba(255, 0, 0, 0.774);
+}
+
+input:valid + span::before {
+    content: '✓';
+    font-weight: bolder;
+    font-family:sans-serif;
+    color:rgba(0, 128, 0, 0.774);
+}
+
+input:invalid {border: 1px solid rgba(255, 0, 0, 0.548);}
+
+input:invalid:required {background-color: rgba(128, 128, 128, 0.226);}
+
+input:valid {border: 1px solid rgba(0, 128, 0, 0.438);}
+
+fieldset {margin-right: 25rem;}
+
+                     /*FORMULARIO END*/

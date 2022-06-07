@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="Author" content="Marcos Campos"/>
+    <meta name="keywords" content="HTML5 CSS3 ARMAS RESIDENTEEVIL RACCOONCITY LOJA CONTATO"/>
+    <meta name="description" content="Meio de Contato com a Loja."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contato</title>
+    <link rel="shortcut icon" href="./imagens/icone.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="estilo.css"/>
+  </head>
+  <body>
+    
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Página Principal</a></li>
+          <li><a href="./produtos.html">Produtos</a></li>
+          <li><a href="./index.html#horarios">Horarios</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr>
+
+    <article>
+      <h2>CONTATO</h2>
+
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Deixe suas sugestões aqui:</legend>
+
+          <label for="nome">Nome</label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Marcos"
+            required
+            autofocus
+            aria-required="true"/>
+            <span></span>
+
+           <br><br>
+
+          <label for="mail">E-mail</label>
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="seuemail@dominio.com"
+            required
+            aria-required="true"/>
+            <span></span>
+
+          <br ><br>
+
+          <textarea
+            name="sug"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Escreva aqui suas sugestões..."
+            aria-required="false"></textarea>
+
+         <br>
+
+          <button type="submit">Enviar</button>
+          <button type="reset">Reset</button>
+
+        </fieldset>
+      </form>
+    </article>
+
+    <aside>
+      <h3>Localização</h3>
+      
+      <address>
+        Centro de Raccon City, na esquina próxima a Rua Flores. <br>
+      </address>
+
+      Telefone: <a href="tel: (22) 9 2345-6789">(22) 9 2345-6789</a>
+    </aside>
+
+    <hr>
+        
+    <footer>
+      Copyright &copy;Kendo Gun Shop, 2022 <br>
+      <a href="#">&uarr;TOPO&uarr;</a>
+  </footer>
+
+  </body>
+</html>
